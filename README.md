@@ -110,7 +110,7 @@ The broader principle: in serverless, any client that maintains persistent conne
 
 ## Part 2 — Your platform rejects the request before your code runs
 
-You add file uploads to your app. Users submit photos — identification documents, profile pictures, anything a mobile device produces. Works in development. In production, uploads from some users fail silently or get rejected with no useful error. You check your logs. Your handler never ran.
+You add file uploads to your app. Users submit photos straight from a phone camera. Works in development. In production, uploads from some users fail silently or get rejected with no useful error. You check your logs. Your handler never ran.
 
 **What is actually happening**
 

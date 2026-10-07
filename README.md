@@ -1,6 +1,8 @@
 # What Serverless Doesn't Handle For You
 
-![](./assets/what-serverless-not-handle-full.avif)
+_Production finds the boundaries of serverless: connections that go stale, limits on request size and execution time, and background work and events that have to be processed reliably. This is where those boundaries are, and what to build at each one._
+
+![Article cover - The title beside seven numbered boundaries, from dying connections to stateless realities](./assets/what-serverless-not-handle-full.avif)
 
 Serverless is a genuine good deal for a small team. No servers to provision, automatic scaling, near-zero cost when idle, and fast deployment cycles. For the first few months, it usually works exactly as advertised.
 
